@@ -1,0 +1,62 @@
+{
+    "description": "NativeScript Application",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "readme": "NativeScript Application",
+    "repository": "<fill-your-repository-here>",
+    "nativescript": {
+        "id": "org.UPlanning.app",
+        "tns-ios": {
+            "version": "5.3.0"
+        },
+        "tns-android": {
+            "version": "5.3.1"
+        }
+    },
+    "dependencies": {
+        "@angular/animations": "7.2.11",
+        "@angular/common": "7.2.11",
+        "@angular/compiler": "7.2.11",
+        "@angular/core": "7.2.11",
+        "@angular/forms": "7.2.11",
+        "@angular/http": "7.2.11",
+        "@angular/platform-browser": "7.2.11",
+        "@angular/platform-browser-dynamic": "7.2.11",
+        "@angular/router": "7.2.11",
+        "@progress-nativechat/nativescript-nativechat": "2.0.3",
+        "kinvey-nativescript-sdk": "3.12.4",
+        "nativescript-accelerometer": "2.0.1",
+        "nativescript-angular": "7.2.3",
+        "nativescript-background-http": "3.4.0",
+        "nativescript-camera": "4.4.0",
+        "nativescript-facebook": "^3.0.0",
+        "nativescript-fresco": "5.2.0",
+        "nativescript-geolocation": "5.0.0",
+        "nativescript-imagepicker": "6.1.2",
+        "nativescript-intl": "3.0.0",
+        "nativescript-iqkeyboardmanager": "1.4.0",
+        "nativescript-oauth": "^2.1.8",
+        "nativescript-oauth2": "^1.4.3",
+        "nativescript-social-share": "1.5.1",
+        "nativescript-theme-core": "1.0.4",
+        "nativescript-ui-autocomplete": "4.0.0",
+        "nativescript-ui-calendar": "4.0.0",
+        "nativescript-ui-chart": "4.0.0",
+        "nativescript-ui-dataform": "4.0.0",
+        "nativescript-ui-gauge": "4.0.0",
+        "nativescript-ui-listview": "6.1.0",
+        "nativescript-ui-sidedrawer": "6.0.0",
+        "reflect-metadata": "0.1.13",
+        "rxjs": "6.4.0",
+        "rxjs-compat": "6.4.0",
+        "tns-core-modules": "5.3.1",
+        "zone.js": "0.9.0"
+    },
+    "devDependencies": {
+        "@angular/compiler-cli": "7.2.11",
+        "@ngtools/webpack": "~7.3.6",
+        "nativescript-dev-typescript": "0.9.0",
+        "nativescript-dev-webpack": "^0.22.0",
+        "tns-platform-declarations": "5.3.1",
+        "typescript": "3.2.2"
+    }
+}
