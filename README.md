@@ -28,7 +28,7 @@ Ejecutar el siguiente código:
 ```
 choco install android-sdk -y
 ```
-
+#### Reiniciar el CMD
 ### 6.- Instalar paquetes como el Android SDK Platform 28, Android SDK Build-Tools 28.0.3 o anteriores, Android Support Repository, Google Repository y cualquier otra SDKs que se pueda necesitar.
 ```
 "%ANDROID_HOME%\tools\bin\sdkmanager" "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
